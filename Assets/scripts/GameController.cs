@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour {
 
 
     [SerializeField]
-    private GameObject pausePanel;
+    private GameObject pausePanel,startPanel;
 
 
     // Use this for initialization
@@ -21,20 +21,17 @@ public class GameController : MonoBehaviour {
     }
     void Awake()
     {
-        MakeSingleton();
-      
+
+        MakeInstance();
+        startPanel.SetActive(true);
+        Time.timeScale = 0f;
     }
 
-    void MakeSingleton()
+    void MakeInstance()
     {
-        if (instance != null)
-        {
-            Destroy(gameObject);
-        }
-        else
+        if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
         }
     }
     public void PauseGame()
@@ -46,8 +43,10 @@ public class GameController : MonoBehaviour {
     public void ResumeGame()
     {
         pausePanel.SetActive(false);
+        startPanel.SetActive(false);
         Time.timeScale = 1f;
 
     }
+
 
 }
