@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tap Tap Things.CSharp", "Tap Tap Things.CSharp.csproj", "{11FBE4B6-513E-D0BA-FA66-0E6D066214F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tap Tap Things.CSharp.Editor", "Tap Tap Things.CSharp.Editor.csproj", "{C55F5D12-AFE7-9417-1579-821256508072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{11FBE4B6-513E-D0BA-FA66-0E6D066214F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11FBE4B6-513E-D0BA-FA66-0E6D066214F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11FBE4B6-513E-D0BA-FA66-0E6D066214F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55F5D12-AFE7-9417-1579-821256508072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55F5D12-AFE7-9417-1579-821256508072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55F5D12-AFE7-9417-1579-821256508072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55F5D12-AFE7-9417-1579-821256508072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
